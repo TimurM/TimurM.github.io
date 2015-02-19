@@ -565,16 +565,16 @@ html[xmlns] .slides {
 }
 
 .slide1 {
-    background: url(../images/slider/slide1.jpg) center center;
+    background: url(../images/slider/san_bran_bridge.jpg) center center;
 }
 
-.slide2{
+/*.slide2{
     background: url(../images/slider/slide2.jpg) center center;
 }
 
 .slide3{
     background: url(../images/slider/slide3.jpg) center center;
-}
+}*/
 
 
 .header-main{
@@ -657,7 +657,7 @@ html[xmlns] .slides {
 .about-media img{
 	box-shadow: 0px 0px 5px #9F9B9B;
 	width:300px;
-	height:300px;
+	height: auto;
 }
 
 .about-desc{
