@@ -71,7 +71,7 @@ $('.image-popup').magnificPopup({
 
 	 $(".testimonials-carousel").owlCarousel({
 	autoPlay: 5000,
-	slideSpeed: 2000,
+	slideSpeed: 5000,
 	items: 1,
 	itemsDesktop: [1199, 1],
 	itemsDesktopSmall: [979, 1],
