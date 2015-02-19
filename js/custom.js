@@ -70,8 +70,8 @@ $('.image-popup').magnificPopup({
  =============================================== */
 
 	 $(".testimonials-carousel").owlCarousel({
-	autoPlay: 5000,
-	slideSpeed: 5000,
+	autoPlay: 50000,
+	slideSpeed: 50000,
 	items: 1,
 	itemsDesktop: [1199, 1],
 	itemsDesktopSmall: [979, 1],
