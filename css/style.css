@@ -795,6 +795,23 @@ html[xmlns] .slides {
 	margin-bottom:20px;
 }
 
+
+#project-header {
+	margin-top: 5px;
+}
+#project-header > h3 {
+	float: left;
+}
+
+#project-header > a {
+	padding-left: 20px;
+	display: inline-block;
+}
+
+.project-details {
+	margin-top: 20px;
+}
+
 .image-wrapper{
     position: relative;
 }
