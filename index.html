@@ -7,6 +7,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
 
+
 	<!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -21,7 +22,14 @@
     <link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
     <link rel="stylesheet" href="css/magnific-popup.css" >
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript">
 
+    // Segment.io Tracker for analytics purposes
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+    analytics.load("j1FYpEl6S3SvvSNc3Hxgb5rB8ZwnqLPI");
+    analytics.page()
+    }}();
+    </script>
     <!-- Google Fonts -->
      <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,300,600,500,900,700,100,800' rel='stylesheet' type='text/css'>
 
@@ -30,7 +38,7 @@
         <script src="js/html5shiv.js"></script>
         <script src="js/respond.min.js"></script>
         <![endif]-->
-
+</head>
  <body data-spy="scroll" data-target=".navbar-custom">
 
     <!--Start Page loader -->
@@ -193,7 +201,8 @@
                     <li class="filter" data-filter="rails">Rails</li>
                     <li class="filter" data-filter="javascript">Javascript</li>
                     <li class="filter" data-filter="games">Games</li>
-                    <li class="filter" data-filter="react">React.js</li>
+                    <li class="filter" data-filter="react">React</li>
+                    <li class="filter" data-filter="angular">AngularJS</li>
                     <li class="filter" data-filter="ember">Ember.js</li>
                 </ul><!--portfolio-filter nav-->
 
@@ -260,6 +269,43 @@
                             <h4>Konami’s arcade classic reimagined for modern times</h4>
                             <p>•  Built on HTML Canvas API for higher performance graphics</p>
                             <p>•  Implements pseudo-classical inheritance patter for game objects</p>
+                          </div>
+                        </div>
+                      </div><!--porject description-->
+                    </div><!--project item and description row-->
+                  </div><!--project item and description container-->
+                </div> <!--work item-->
+                <div class="col-md-12 col-sm-6 mix javascript angular">
+                  <div class="container">
+                    <div class="row">
+                      <!-- <div class="col-md-2 col-sm-6">
+                      </div> -->
+                      <div class="col-md-6 col-sm-6">
+                        <div class="image-wrapper">
+                          <img src="images/portfolio/img10.png" class="img-responsive" alt="work">
+                          <div class="image-overlay">
+                            <br>
+                            <h3>AccuWeather App</h3>
+                            <span>
+                              <a href="images/portfolio/Property_Finder.gif" target="_blank" title="Image description"  class="image-popup"> <i class="fa fa-camera-retro"></i></a>
+                              <a href="WeatherApp" target="_blank"><i class="fa fa-chain"></i></a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="cv-detail">
+                          <div id="project-header">
+                            <h3>AccuWeather App</h3>
+                            <a href="https://github.com/TimurM/AccuWeather" target="_blank"><i class="fa fa-github"></i> Github</a>
+                            <a href="WeatherApp" target="_blank"><i class="fa fa-external-link"></i> Live Site</a>
+                          </div>
+                          <div class="project-details">
+                            <h4>A weather app that visualizes historical and forecasted weather </h4>
+                            <p>•  Implements a custom directive for displaying current weather information</p>
+                            <p>•  Written following TDD principles with a testing suite created with Karma and Jasmine testing Controllers & Factories</p>
+                            <p>•  Utilizes the user’s current location on load to visualize forecasted weather for up to a month</p>
+                            </p>
                           </div>
                         </div>
                       </div><!--porject description-->
